@@ -21,6 +21,7 @@ body{
     width:500px;
     border-radius: 12px;
 }
+
 button a{
     text-decoration: none;
     color: #ffffff;
@@ -76,4 +77,19 @@ color:rgba(255, 255, 255, 0.548);
     width: 100px; /* sets the image width to 100% of the parent container */
     height:100%; /* sets the image height to 100% of the parent container */
     object-fit: cover; /* ensures the image is scaled to cover the entire container */
+  }
+  @media screen and (max-width:720px){
+    .attribution{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+  }
+  @media screen and (max-height:890px){
+
+    .attribution{
+        display: none;
+    }
   }
